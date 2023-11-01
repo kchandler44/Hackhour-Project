@@ -1,2 +1,2 @@
 const contents = document.getElementById('contents');
-contents.innerHTML = '';
+contents.parentNode.removeChild(contents);
