@@ -41,8 +41,6 @@ let ourText = "We love cats, we love cats. Cats cats cats cats cats.";
 const utterThis = new SpeechSynthesisUtterance(ourText);
 
 synth.speak(utterThis);
-synth.speak(utterThis);
-synth.speak(utterThis);
-synth.speak(utterThis);
+
 
 
