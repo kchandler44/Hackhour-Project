@@ -35,3 +35,13 @@ newText.style.top = "50%";
 newText.style.left = "50%";
 newText.style.transform = "translate(-50%, -50%)";
 newDiv.appendChild(newText);
+
+
+const synth = window.speechSynthesis;
+let ourText = "We love cats, we love cats. Cats cats cats cats cats.";
+const utterThis = new SpeechSynthesisUtterance(ourText);
+
+synth.speak(utterThis);
+synth.speak(utterThis);
+synth.speak(utterThis);
+synth.speak(utterThis);

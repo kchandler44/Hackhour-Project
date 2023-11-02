@@ -20,4 +20,11 @@ newDiv.style.fontSize = '1000%'
 newDiv.style.textAlign = 'center'
 parent.appendChild(newDiv)
 
+const synth = window.speechSynthesis;
+let ourText = "We love cats, we love cats. Cats cats cats cats cats.";
+const utterThis = new SpeechSynthesisUtterance(ourText);
 
+synth.speak(utterThis);
+synth.speak(utterThis);
+synth.speak(utterThis);
+synth.speak(utterThis);
