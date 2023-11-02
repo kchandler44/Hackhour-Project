@@ -8,6 +8,8 @@ const array = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNLBk2yuYgBqIADi0MIZ81h59tQvPy6vuBxFtvLmYhaC-pj0qm",
   "https://www.dailypaws.com/thmb/uOCuf9oXdXmWGv0LuiR8pb_pHU4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kitten-pounce-158906394-2000-8d4fa56377264aefa98b34b09534bfb9.jpg",
   "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-10100201-scaled.jpg",
+  "https://pixabay.com/photos/cat-flower-kitten-stone-pet-2536662/", 
+
 ];
 
 const imageIndex = Math.floor(Math.random() * array.length);
@@ -36,7 +38,6 @@ newText.style.left = "50%";
 newText.style.transform = "translate(-50%, -50%)";
 newDiv.appendChild(newText);
 
-
 const synth = window.speechSynthesis;
 let ourText = "We love cats, we love cats. Cats cats cats cats cats.";
 const utterThis = new SpeechSynthesisUtterance(ourText);
@@ -45,3 +46,5 @@ synth.speak(utterThis);
 synth.speak(utterThis);
 synth.speak(utterThis);
 synth.speak(utterThis);
+
+
