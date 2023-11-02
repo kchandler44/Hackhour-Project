@@ -19,3 +19,5 @@ newDiv.style.color = 'red'
 newDiv.style.fontSize = '1000%'
 newDiv.style.textAlign = 'center'
 parent.appendChild(newDiv)
+
+
