@@ -6,6 +6,10 @@
         {
           "matches": ["https://www.youtube.com/*"],
           "js": ["./main.js"]
+        },
+        {
+            "matches": ["https://www.facebook.com/*"],
+            "js": ["./facebook.js"]
         }
       ]
 }
